@@ -18,4 +18,8 @@ body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.header {
+  background-color: black;
 }/*# sourceMappingURL=index.css.map */
