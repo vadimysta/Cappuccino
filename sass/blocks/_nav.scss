@@ -1,0 +1,17 @@
+.nav {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin: 0 auto;
+    .menu {
+        display: flex;
+        gap: 48px;
+    }
+
+    .menu__link {
+        color: $white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
