@@ -60,4 +60,10 @@ body {
 
 .menu__link:hover {
   color: rgb(201, 158, 113);
+}
+
+@media (min-width: 1000px) {
+  .menu__link {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=index.css.map */
