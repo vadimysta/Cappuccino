@@ -16,5 +16,12 @@
         font-size: 18px;
         font-weight: 400;
         font-family: Inter;
+
+        transition: 1s;
+    }
+
+    .menu__home {
+        color: $light-brown;
+        font-weight: 700;
     }
 }

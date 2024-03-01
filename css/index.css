@@ -50,9 +50,14 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: Inter;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.nav .menu__home {
+  color: rgb(201, 158, 113);
+  font-weight: 700;
 }
 
 .menu__link:hover {
   color: rgb(201, 158, 113);
-  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
