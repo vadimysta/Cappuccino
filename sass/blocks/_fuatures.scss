@@ -1,0 +1,20 @@
+.fuatures {
+    display: flex;
+    gap: 36px;
+}
+
+.fuatures-item {
+    font-family: Righteous;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fuatures-item-num {
+    color: $light-brown;
+    margin-right: 12px;
+}
+
+.fuatures-img {
+    display: block;
+    margin-top: 24px;
+}

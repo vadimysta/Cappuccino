@@ -14,6 +14,8 @@ body {
   font-family: "Righteous", sans-serif;
   font-family: "Urbanist", sans-serif;
   font-family: "Inter", sans-serif;
+  background-color: rgb(28, 24, 20);
+  color: rgb(255, 255, 255);
 }
 
 .container {
@@ -81,7 +83,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 147px 0 158px;
+  padding: 147px 15px 158px 15px;
 }
 
 .banner-title {
@@ -150,7 +152,7 @@ body {
   background-position: center;
   width: 70px;
   height: 70px;
-  border: 1.5px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 100%;
@@ -165,4 +167,31 @@ body {
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
+}
+
+.fuatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 36px;
+}
+
+.fuatures-item {
+  font-family: Righteous;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.fuatures-item-num {
+  color: rgb(201, 158, 113);
+  margin-right: 12px;
+}
+
+.fuatures-img {
+  display: block;
+  margin-top: 24px;
+}
+
+.padding-main {
+  padding: 140px 15px 140px 15px;
 }/*# sourceMappingURL=index.css.map */
